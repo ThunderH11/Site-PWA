@@ -7,15 +7,20 @@
 <html lang="en">
 	<meta name="theme-color" content="#1b1f22">
 	<head>
+		
 		<title>WEB-DIN</title>
+		<link rel="apple-touch-icon" href="icon-192x192.png">
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 		<link rel="manifest" href="Manifest.json">
-		<script>if (typeof navigator.serviceWorker !=='undefined'){navigator.serviceWorker.register('pwabilder-sw.js')
-	}
-	</script>
+		<link rel="manifest" href=".well-known/assetlinks.json">
+		<script>
+			if (typeof navigator.serviceWorker !== 'undefined') {
+				navigator.serviceWorker.register('pwabilder-sw.js');
+			}
+		</script>
 	</head>
 	<body class="is-preload">
 
